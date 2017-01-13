@@ -1,0 +1,11 @@
+{
+  "consul": "{{.CONSUL}}:8500",
+  "services": [
+    {
+      "name": "neo4j",
+      "port": "{{.PORT}}",
+      "poll": 3,
+      "ttl": 10
+    }
+  ]
+}
